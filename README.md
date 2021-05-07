@@ -2,7 +2,10 @@
 
 A small wordpress plugin for a clients website. 
 
-This plugin uses shortcode to displays social media links as clickable icons from URLs stored in an [ACF](https://www.advancedcustomfields.com/) repeater field on each business page. 
+This plugin uses shortcode to displays social media links as clickable icons from URLs stored in an Advanced Custom Field [(ACF)](https://www.advancedcustomfields.com/) repeater field on a site built using the [Divi Theme](https://www.elegantthemes.com/gallery/divi/).
+
+[Read me](https://www.advancedcustomfields.com/resources/repeater/) for more information about ACF and repeater fields.
+
 
 
 ![acf-icons](https://user-images.githubusercontent.com/79979868/117466216-5dbc6300-af4a-11eb-8f22-24285e89592b.PNG)
@@ -12,11 +15,10 @@ You can see a live version in action [here.](https://roytoncommunityhub.co.uk/bu
 
 # To use: 
 
+* The plugin assumes you have ACF setup with a repeater field called 'social_media' and an ajoining sub field called 'url' and are currently using the Divi Theme. 
+
 * Zip this repo and install it as a plugin to your wordpress site. 
 
-* The plugin assumes you have ACF setup with a repeater field called 'social_media' and an ajoining sub field called 'url', but with some PHP knowledge this can easily be changed. 
-
-* [Read me](https://www.advancedcustomfields.com/resources/repeater/) for more information about ACF and repeater fields.
 
 * You can use the short code [acfsocial] to call the plugin and display a listings associated social media links wherever you like. 
 
